@@ -1,0 +1,108 @@
+
+button{
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  float: right;
+  border-radius: 5px 20px;
+  border: none;
+  background-color: black;
+  padding: 12px 10px;
+}
+button:hover{
+  transition:2ms;
+  cursor:pointer;
+  box-shadow: 10px 10px grey;
+}
+
+.column1{
+  height: 100%;
+  float: left;
+  width: 90%;
+  color: Black;
+}
+.column2{
+  height: 10%;
+  float: left;
+  width: 10%;
+}
+
+  
+
+.row{
+  height: 50px;
+  border: 9px outset blue;
+  background-color: yellow;
+  padding: 20px 50px 0px 30px ;
+}
+
+.box{
+  background-color: yellow !important;
+  border-radius: 10px,20px;
+}
+
+.box2{
+  margin-left: 150px;
+}
+
+.avatar{
+  
+  height: 180px;
+  width: 180px;
+  padding: 2px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: white;
+  
+}
+
+.column3{
+  float: left !important;
+  width: 33% !important;
+}
+h2{
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+
+.profile {
+  border: 2px solid black;
+  box-shadow: black;
+  max-width: 200px;
+  margin: 10px 5px;
+  text-align: center;
+  font-family: arial;
+  padding: 15px;
+  /* border-radius: 10px 40px; */
+  background-color: lightblue;
+}
+
+.profile:hover{
+  transition: 100ms;
+  box-shadow: 8px 10px 10px 8px yellow;
+  transform: translateY(-3px);
+  background-color: yellow;
+}
+.email {
+  color: black ;
+  font-size: 16px;
+  overflow-wrap: anywhere;
+}
+.name{
+  font-size:18px;
+  color:black;
+  font-weight: bold;
+}
+.user{
+  font-size:20px;
+  color:black;
+  font-weight: bold;
+}
+
+.loader{
+  margin-left: 300px;
+  margin-top: 100px;
+  margin-right: 80px;
+  
+}
